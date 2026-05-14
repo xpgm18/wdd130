@@ -10,12 +10,15 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px;
+    padding: 1rem;
+    box-shadow: 1rem;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px rgb(0, 0, 0 / .2);
+    border: 1px rgb(0 0 0 / .2);
     padding: 1rem;
     background-color: brown;
     color: aquamarine;

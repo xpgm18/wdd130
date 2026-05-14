@@ -3,6 +3,29 @@ nav {
     padding: 10px;
 }
 
+main {
+    width: 840px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px rgb(0, 0, 0) / .2;
+    padding: 1rem solid;
+    background-color: brown;
+    color: aquamarine;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 nav a {
     color: white;
     display: block;
@@ -22,5 +45,11 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1rem solid#000;
+    text-align: center;
 }

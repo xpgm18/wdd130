@@ -4,7 +4,7 @@ nav {
 }
 
 main {
-    width: 840px;
+    max-width: 840px;
 }
 
 main img {
@@ -15,10 +15,11 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px rgb(0, 0, 0) / .2;
-    padding: 1rem solid;
+    border: 1px rgb(0, 0, 0 / .2);
+    padding: 1rem;
     background-color: brown;
     color: aquamarine;
+    text-align: center;
 }
 
 aside img {

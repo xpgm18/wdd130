@@ -1,5 +1,12 @@
+:root {
+    --box-shadow-color: darkblue;
+    --background-color: darkblue;
+    --aside-color: aquamarine;
+    --standard-padding: 1rem;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
@@ -11,17 +18,17 @@ main img {
     width: 150px;
     height: auto;
     border: 1px;
-    padding: 1rem;
-    box-shadow: 10px 10px darkblue;
+    padding: var(--standard-padding);
+    box-shadow: 10px 10px var(--box-shadow-color);
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--standard-padding);
     border: 1px rgb(0 0 0 / .2);
-    padding: 1rem;
+    padding: var(--standard-padding);
     background-color: brown;
-    color: aquamarine;
+    color: var(--aside-color);
     text-align: center;
 }
 
@@ -37,7 +44,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--background-color);
 }
 
 img {
@@ -53,7 +60,7 @@ p {
 }
 
 footer {
-    margin-top: 1rem;
-    border-top: 1rem solid#000;
+    margin-top: var(--standard-padding);
+    border-top: var(--standard-padding) solid#000;
     text-align: center;
 }

@@ -61,7 +61,11 @@ body {
 
 main {
     width: 840px;
-    margin: 0 auto;
+    margin: 0;
+    /* If I add auto, it evidently centers stuff */
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 header {

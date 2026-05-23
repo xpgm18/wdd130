@@ -1,8 +1,8 @@
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    /* --secondary-color: #f4a261; */
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    /* --accent2-color: #e9c46a; */
     --heading-font: "Arial", "Times New Roman", serif;
     --body-font: "Arial", "Times New Roman", serif;
 }
@@ -94,6 +94,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {

@@ -1,0 +1,27 @@
+:root {
+    --box-shadow-color: darkblue;
+    --background-color: darkblue;
+    --aside-color: aquamarine;
+    --standard-padding: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #cccaca;
+    color: #1a044e;
+}
+
+footer {
+    margin-top: var(--standard-padding);
+    border-top: var(--standard-padding) solid#000;
+    text-align: center;
+}

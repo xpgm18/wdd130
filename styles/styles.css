@@ -11,28 +11,63 @@
     box-sizing: border-box;
 }
 
+a {
+    color: rgb(3, 3, 109);
+}
+
+header,
+.grid,
+footer {
+    /* margin-top: var(--standard-padding); */
+    /* border-top: var(--standard-padding) solid#000; */
+    /* text-align: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 nav {
-    background-color: var(--background-color);
-    padding: 10px;
+    /* color: white; */
+    /* display: block; */
+    /* padding: 20px; */
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 
 main {
-    max-width: 840px;
+    max-width: 50rem;
+    grid-column: 2/3;
+    margin: 1rem 0;
 }
 
 main img {
     float: right;
-    width: 150px;
+    width: 19rem;
     height: auto;
     border: 1px;
     padding: var(--standard-padding);
     box-shadow: 10px 10px var(--box-shadow-color);
+    margin: 1rem 0 1rem 1rem;
 }
 
 aside {
-    width: 20rem;
+    max-width: 30rem;
+    /* margin: 10px; */
     /* text-align: center; */
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -49,14 +84,14 @@ aside h2 {
     top: 3rem;
 }
 
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+ul {
+    list-style: none;
+    padding: 1rem 0;
 }
 
 h1 {
-    color: var(--background-color);
+    /* color: var(--background-color); */
+    border-bottom: 1px solid #222;
 }
 
 img {
@@ -68,20 +103,29 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 1rem 0;
 }
 
 footer {
-    margin-top: var(--standard-padding);
-    border-top: var(--standard-padding) solid#000;
-    text-align: center;
+    background-color: #3e3e3e;
+    color: #fff;
+    /* margin: 2rem auto; */
+    padding: 2rem 1rem;
 }
 
 /* Class Selectors */
 .box {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     padding: 1rem;
     border: 1px solid #ccc;
     background-color: #cccaca;
     color: #1a044e;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

@@ -48,7 +48,7 @@ body {
     transform: translateX(-50%);
     width: 90%;
     padding: 8px;
-    background-color: rgba(109, 100, 237, 0.6);
+    background-color: rgba(50, 37, 235, 0.6);
     color: white;
 }
 
@@ -64,11 +64,6 @@ main {
     width: 100%;
     height: auto;
 }
-
-/* header {
-    width: 840px;
-    margin: 0;
-} */
 
 header {
     margin: 1rem auto;
@@ -146,7 +141,7 @@ h1 h2 {
 
 section h2 {
     width: 100%;
-    background-color: rgba(109, 100, 237, 0.6);
+    background-color: rgba(50, 37, 235, 0.6);
     color: white;
     text-align: center;
     font-family: var(--heading-font);

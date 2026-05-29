@@ -141,7 +141,7 @@ h1 h2 {
 
 section h2 {
     width: 100%;
-    background-color: rgba(30, 15, 233, 0.9);
+    background-color: rgba(30, 15, 233, 1.0);
     color: white;
     text-align: center;
     font-family: var(--heading-font);

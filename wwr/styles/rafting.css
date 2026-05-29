@@ -58,7 +58,6 @@ body {
 }
 
 main {
-    width: 840px;
     margin: 0;
     /* If I add auto, it evidently centers stuff */
     display: block;

@@ -160,7 +160,7 @@ footer {
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(62, 61, 61);
     color: white;
     margin-top: 4rem;
     overflow: hidden;

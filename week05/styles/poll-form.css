@@ -1,38 +1,101 @@
-/* From https: //developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms */
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: 100%;
-}
-
-input,
-textarea,
-select,
-button {
-    width: 150px;
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    background: white;
+}
+
+header {
+    padding: 1em;
+    margin: 0 auto;
+    width: 900px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px;
+    margin: 0 auto;
+    padding: .5em;
+    border: 1px solid rgb(0, 0, 0 / .2);
+    border-radius: .5em;
+    background-color: rgb(209, 209, 217);
+    font-size: 1.5em;
+}
+
 fieldset {
-    display: block;
-    min-inline-size: min-content;
-    margin-inline: 2px;
-    border-width: 2px;
-    border-style: groove;
-    border-color: threedface;
-    border-image: initial;
-    padding-block: 0.35em 0.625em;
-    padding-inline: 0.75em;
+    display: grid;
+    gap: .5em;
+    margin: .5em;
+    border: 1px solid rgb(0, 0, 0 / .2);
+    /* padding: 1em; */
 }
 
 legend {
-    display: block;
-    unicode-bidi: isolate;
-    padding-inline: 2px;
+    color: brown;
 }
 
-/* End of "from" (the above website) */
+label {
+    text-align: right;
+    padding-right: 1em;
+}
+
+input,
+select,
+textarea {
+    font-size: 1em;
+    padding: .5em;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    width: 1em;
+    height: 1em;
+}
+
+button {
+    margin: 1em;
+    border: none;
+    border-radius: .5em;
+    padding: .5em;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 2fr;
+    margin: .5em 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+footer {
+    margin: 1em auto 0;
+    width: 900px;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+}

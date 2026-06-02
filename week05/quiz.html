@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form Example</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta name="description" content="A simple quiz form example for Week 5">
+    <meta name="author" content="Geoffrey David McIntyre">
+</head>
+
+<body>
+    <main>
+        <h1>Quiz Form Example</h1>
+        <!-- The pound sign means no action upon submit. Not allowed in github -->
+        <form action="#">
+            <fieldset>
+                <legend>Basic HTML and CSS Quiz</legend>
+                <!-- <div class="form-item column2"> -->
+                <label for="q1"><span class="number">1.</span> What does the acronym CSS stand
+                    for?</label>
+                <input type="text" id="q1" name="q1" required>
+
+                <label for="q2"><span class="number">2.</span> How are id and class attributes
+                    selected in CSS?</label>
+                <textarea name="q2" id="q2" rows="5" required></textarea>
+
+                <label for="q3"><span class="number">3.</span> Which of the following is a valid CSS
+                    comment?</label>
+                <select name="q3" id="q3">
+                    <option value="0">Choose One ...</option>
+                    <option value="1">/* This is a comment */</option>
+                    <option value="2">//This is a comment</option>
+                    <option value="3">#This is a comment</option>
+                    <option value="4">&lt;!--This is a comment--&gt;</option>
+                </select>
+
+                <label for="q4"><span class="number">4.</span> What is the bottom margin given this
+                    declaration?</label>
+                <p class="code">margin: 10px 5px 15px;</p>
+                <input type="text" id="q4" name="q4" required>
+
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;Geoffrey McIntyre</p>
+    </footer>
+</body>
+
+</html>

@@ -93,7 +93,12 @@ footer {
     text-align: center;
     font-size: 1em;
     color: black;
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */
+    /* border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000; */
+    border: 1px solid #000;
 }
 
 footer p {

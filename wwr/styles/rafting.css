@@ -164,12 +164,14 @@ article {
 
 footer {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     width: 100%;
     background-color: rgb(62, 61, 61);
     color: white;
     margin-top: 4rem;
     overflow: hidden;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .socialmedia a {

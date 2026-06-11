@@ -451,3 +451,26 @@ textarea {
     margin-top: 8px;
     font-weight: 500;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    background-color: white;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+th,
+td {
+    background-color: lightblue;
+    padding: 8px;
+}
+
+caption {
+    background-color: lightblue;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+}

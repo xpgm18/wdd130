@@ -482,9 +482,9 @@ caption,
 
 .trips-section .trips-container {
     width: 1000px;
-    margin: -16px auto;
+    margin: 0 auto 0 -22px;
     background-color: lightblue;
-    padding: 40px 0px;
+    padding: 40px 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;

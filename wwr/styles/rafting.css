@@ -69,11 +69,6 @@ footer {
     width: 125px;
 }
 
-main {
-    display: block;
-    height: auto;
-}
-
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -130,10 +125,10 @@ section.history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    height: 50vh;
+    /* height: 50vh; */
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .home-image-extra {
@@ -198,7 +193,14 @@ footer {
     background-color: rgb(62, 61, 61);
     color: white;
     margin-top: 4rem;
-    overflow: hidden;
+    /* overflow: hidden; */
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
 }
 
 .socialmedia a {
@@ -344,7 +346,8 @@ button[type="submit"]:hover {
     top: 120px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 12px 12px;
+    /* padding: 12px 12px; */
+    padding: 1em;
     font-size: 1.7rem;
     background-color: brown;
     color: white;
@@ -354,6 +357,8 @@ button[type="submit"]:hover {
     cursor: pointer;
     display: inline-block;
     z-index: 10;
+    width: 10em;
+    text-align: center;
 }
 
 .home-form {
@@ -457,7 +462,8 @@ textarea {
 }
 
 table {
-    margin: 10px auto 10px auto;
+    /* margin: 10px auto 10px auto; */
+    margin: 5rem auto;
     border-collapse: separate;
     background-color: white;
     font-size: 1.3rem;
@@ -482,6 +488,7 @@ caption,
 
 .trips-section {
     margin: 1rem 0 0 0;
+    /* margin 0; */
     padding: 0;
 }
 
@@ -494,11 +501,6 @@ caption,
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
-/* .trips-item {
-    display: flex;
-    flex-direction: column;
-} */
 
 .trips-images {
     width: 100%;
